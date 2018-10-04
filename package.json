@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "dokku": {
-      "predeploy": "npm run build"
+      "predeploy": "yarn run build"
     }
   },
   "keywords": [],
