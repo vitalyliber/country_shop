@@ -1,1 +1,1 @@
-web: npm start -- --port 80
+web: yarn run build && npm start -- --port 80
