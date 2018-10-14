@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dokku": {
-      "predeploy": "yarn run build"
+      "predeploy": "npm run build"
     },
     "dev": "node server.js",
     "build": "next build",
