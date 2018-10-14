@@ -9,7 +9,7 @@
     },
     "dev": "node server.js",
     "build": "next build",
-    "start": "node server.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
