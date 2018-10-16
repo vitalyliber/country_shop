@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dokku": {
-      "predeploy": "yarn run build"
-    },
+    "heroku-postbuild": "npm run build",
     "dev": "node server.js",
     "build": "next build",
     "start": "NODE_ENV=production node server.js"
