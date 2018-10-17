@@ -1,10 +1,80 @@
-.card-img-overlay{
-  background-color: #0c141b8c;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.container {
+   width: 100%;
+  max-width: 1140px !important;
+}
+
+.page-content {
+  background-color: #F5FAFD;
+}
+
+.card-img-overlay h1 {
+  font-size: 74px;
+}
+
+a {
+ color: inherit;
+}
+
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+.top-card {
+  height: 700px;
+  border: none;
+}
+
+.top-card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: initial;
 }
 
 .footer {
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
+  height: 100px;
+  padding-top: 50px;
+  background-color: #F5FAFD;
+  font-size: 14px;
+  color: gray;
+}
+
+.description {
+  max-width: 800px !important;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-22 {
+  font-size: 22px;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    font-size: 18px;
+  }
+
+  .top-card {
+    height: 500px;
+  }
+
+  .card-img-overlay h1 {
+    font-size: 32px;
+  }
+
+  .card-img-overlay h2 {
+    font-size: 24px;
+  }
 }
