@@ -1,10 +1,44 @@
-.card-img-overlay{
-  background-color: #0c141b8c;
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.page-content {
+  background-color: #F5FAFD;
+}
+
+.contacts {
+
+}
+
+.top-card {
+  height: 700px;
+  border: none;
+}
+
+.top-card img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: initial;
 }
 
 .footer {
   width: 100%;
-  height: 60px;
-  line-height: 60px;
-  background-color: #f5f5f5;
+  height: 100px;
+  padding-top: 50px;
+  background-color: #F5FAFD;
+  font-size: 16px;
+  color: gray;
+}
+
+.text-28 {
+  font-size: 28px;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+
+.text-22 {
+  font-size: 22px;
 }

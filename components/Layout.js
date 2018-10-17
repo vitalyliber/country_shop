@@ -9,6 +9,7 @@ const Layout = (props) => (
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
                   integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
                   crossOrigin="anonymous"/>
+            <link href="https://fonts.googleapis.com/css?family=Montserrat:100" rel="stylesheet" />
             <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
                     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
                     crossOrigin="anonymous"/>
@@ -19,16 +20,19 @@ const Layout = (props) => (
                     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
                     crossOrigin="anonymous"/>
         </Head>
-        <Header />
-        <div className="container">
-            <br/>
-            {props.children}
+        {/*<Header />*/}
+        {/*<div className="container">*/}
+            {/*<br/>*/}
+            {/*{props.children}*/}
+        {/*</div>*/}
+        <div className="page-content">
+          {props.children}
         </div>
-        <br/>
+        {/*<br/>*/}
         <div className="footer">
             <div className="text-center">
                 <span className="text-muted">
-                    Торговый дом "ИП Моргунова".
+                  {(new Date()).getFullYear()} Торговый дом "ИП Моргунова".
                 </span>
             </div>
         </div>
