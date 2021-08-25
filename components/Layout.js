@@ -29,7 +29,7 @@ const Layout = (props) => (
     <div className="footer pl-4 pr-4">
         <div className="text-center">
             <span className="text-muted">
-              {(new Date()).getFullYear()} Торговый дом "ИП Моргунова".
+              {(new Date()).getFullYear()} Торговый дом &ldquo;ИП Моргунова&ldquo;.
             </span>
         </div>
     </div>
