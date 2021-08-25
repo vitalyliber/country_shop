@@ -1,5 +1,4 @@
 import Layout from '../components/Layout.js'
-import "../styles.scss"
 import Plx from 'react-plx';
 
 const parallaxData = [
@@ -26,7 +25,7 @@ const Index = () => (
     <div className="card top-card text-white">
         <img
             className="card-img-top"
-            src="/static/background-img.jpg"
+            src="/background-img.jpg"
             alt="Card image cap"
         />
         <div className="card-img-overlay pt-5">
@@ -73,20 +72,20 @@ const Index = () => (
       <div className="col-12 col-md-6 p-0">
         <div className="contacts p-4 d-flex flex-column justify-content-center align-items-center h-100 text-white">
           <div className="mb-5 text-28 text-center">
-            <img src="/static/map_white.png" width={20}/>
+            <img src="/map_white.png" width={20}/>
             <span className="ml-3">п. Туртас, ул. Школьная, д. 3А</span>
           </div>
           <div>
             <div className="mb-3">
-              <img src="/static/clock_white.png" width={20}/>
+              <img src="/clock_white.png" width={20}/>
               <span className="ml-3">Ежедневно с 9.00 до 20.00</span>
             </div>
             <div className="mb-3">
-              <img src="/static/email_white.png" width={20}/>
+              <img src="/email_white.png" width={20}/>
               <a href="mailto:VOAturtas@yandex.ru" className="ml-3">VOAturtas@yandex.ru</a>
             </div>
             <div className="mb-3">
-              <img src="/static/phone_white_2.png" width={20}/>
+              <img src="/phone_white_2.png" width={20}/>
               <a href="tel:+73456125897" className="ml-3">Тел/факс: +7(34561)25-8-97</a>
             </div>
           </div>
@@ -107,7 +106,7 @@ const Index = () => (
                 <div className="mb-5">Женская одежда всех размеров только от отечественных производителей</div>
               </div>
               <div className="d-flex align-items-start justify-content-center text-18">
-                <img src="/static/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
+                <img src="/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
                 <span className="ml-3 text-left">Ежедневно с 9.00 до 19.00</span>
               </div>
             </div>
@@ -119,7 +118,7 @@ const Index = () => (
                 <div className="mb-5">Фотографии на документы, распечатка и ксерокопии</div>
               </div>
               <div className="d-flex align-items-start justify-content-center text-18">
-                <img src="/static/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
+                <img src="/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
                 <span className="ml-3 text-left">Ежедневно с 9.00 до 19.00</span>
               </div>
             </div>
@@ -131,7 +130,7 @@ const Index = () => (
                 <div className="mb-5">Рабочая одежда и обувь, а так же рыболовные принадлежности</div>
               </div>
               <div className="d-flex align-items-start justify-content-center text-18">
-                <img src="/static/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
+                <img src="/clock_black.png" width={20} style={{ paddingTop: '2px'}}/>
                 <span className="ml-3 text-left">Ежедневно с 9.00 до 19.00</span>
               </div>
             </div>
