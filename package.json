@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "git push dokku@116.203.209.110:country-shop master"
   },
   "dependencies": {
     "bootstrap": "4.6.0",
